@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Number Generator</title>
+    <title>BestCoder1877</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button type="button" onclick="generate()">GENERATE!</button>
-    from 0 to:<input type="text" name="to" id="input">
-    <div id="div"></div>
-    <script src="script.js"></script>
+    <div class="banner">
+        <div class="navbar">
+            <a href="https://bestcoder1877.github.io"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><a href="https://bestcoder1877.github.io/ran-num/">Random Number</a></li>
+                <li><a href="https://bestcoder1877.github.io/ai-news-1/">Tech News By AI</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        from 1 to:<input type="number" name="to" id="input">
+        <p id="div"></p>
+        <div>
+            <button type="button" onclick="generate()"><span></span>GENERATE!</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
